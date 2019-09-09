@@ -1,3 +1,9 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import MyRedoc from '../components/MyRedoc';
+
+export default () => (
+    <div>
+        <MyRedoc/>
+    </div>
+)
